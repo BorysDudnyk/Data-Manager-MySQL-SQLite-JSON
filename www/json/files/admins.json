@@ -1,0 +1,35 @@
+[
+    {
+        "user_id": 7,
+        "email": "emma.green@ex.com",
+        "name": "Emma Green",
+        "given_name": "Emma",
+        "family_name": "Green",
+        "nickname": "Emmy",
+        "last_ip": "192.1.40",
+        "logins_count": 7,
+        "email_verified": true
+    },
+    {
+        "user_id": 8,
+        "email": "chris.brown@ex.com",
+        "name": "Chris Brown",
+        "given_name": "Chris",
+        "family_name": "Brown",
+        "nickname": "Crispy",
+        "last_ip": "192.1.45",
+        "logins_count": 19,
+        "email_verified": true
+    },
+    {
+        "user_id": 9,
+        "email": "diana.clark@ex.com",
+        "name": "Diana Clark",
+        "given_name": "Diana",
+        "family_name": "Clark",
+        "nickname": "Di",
+        "last_ip": "192.1.50",
+        "logins_count": 4,
+        "email_verified": false
+    }
+]
