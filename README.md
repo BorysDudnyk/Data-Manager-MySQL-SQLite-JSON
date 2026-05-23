@@ -1,105 +1,121 @@
 # Data-Manager-MySQL-SQLite-JSON
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/BorysDudnyk/Data-Manager-MySQL-SQLite-JSON.svg)](https://github.com/BorysDudnyk/Data-Manager-MySQL-SQLite-JSON/issues)
-[![GitHub stars](https://img.shields.io/github/stars/BorysDudnyk/Data-Manager-MySQL-SQLite-JSON.svg)](https://github.com/BorysDudnyk/Data-Manager-MySQL-SQLite-JSON/stargazers)
+Database Management Tool is a web application that allows managing data in **MySQL, SQLite, and JSON** formats.  
+It provides a simple interface for creating, editing, and viewing data.
 
-## Зміст
+## Features
 
-- [Опис](#опис)
-- [Функціональні можливості](#функціональні-можливості)
-- [Встановлення](#встановлення)
-- [Використання](#використання)
-- [Скріншоти](#скріншоти)
+- Unified management system for **MySQL, SQLite, and JSON**
+- CRUD operations (Create, Read, Update, Delete)
+- Admin-style interface
+- File-based + relational database support
 
-## Опис
+---
 
-Database Management Tool — веб-додаток, який дозволяє керувати базами даних у форматах JSON, MySQL, та SQLite. Програма надає користувачам інтуїтивно зрозумілий інтерфейс для створення, редагування та перегляду баз даних.
+## Development Tools
 
-## Функціональні можливості
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=apache&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=white)
 
-- **JSON:**
-  - Створення та видалення JSON-файлів.
-  - Додавання, редагування, перегляд записів у JSON-файлі.
-- **MySQL:**
-  - Створення та видалення таблиць.
-  - Додавання, редагування, видалення та перегляд записів.
-- **SQLite:**
-  - Створення нових баз даних.
-  - Робота з таблицями та записами (додавання, редагування, видалення).
+## Technologies
 
-## Встановлення
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-1. Завантажте файли проєкту з репозиторію.
-2. Розпакуйте архів до папки на вашому сервері.
-3. Налаштуйте конфігураційні файли:
-   - Для MySQL: відредагуйте файл `www/mysql/config.php`.
-4. Імпортуйте базу даних MySQL, використовуючи файл `dbd.sql`.
-5. Запустіть локальний сервер (наприклад, XAMPP або WAMP) і відкрийте додаток у браузері.
+---
 
-## Використання
+## Table of Contents
 
-1. Перейдіть на головну сторінку програми.
-2. Виберіть тип бази даних для роботи: JSON, MySQL, SQLite.
-3. Використовуйте відповідні функції для управління даними.
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 
-## Скріншоти
+---
 
-### Головна сторінка
-![Головна сторінка](Screenshots/Головна%20сторінка.png)
+## Installation
+
+1. Download the project
+2. Extract it into your server directory (XAMPP / OpenServer)
+3. Configure `mysql/config.php`
+4. Import `dbd.sql`
+5. Run project in browser
+
+---
+
+## Usage
+
+1. Open the main page
+2. Select database type (MySQL / JSON / SQLite)
+3. Use CRUD operations
+
+---
+
+## Screenshots
+
+#### Home Page
+![Home Page](Screenshots/Головна%20сторінка.png)
+
+---
 
 ### JSON
 
-Створення нового файлу:
-![Створення нового файлу](Screenshots/Головна%20JSON%20створення%20нового%20файлу.png)
-Редагування файлу:
-![Редагування файлу](Screenshots/Головна%20JSON%20редагуання%20самого%20файлу.png)
-Додавання нового запису:
-![Додавання нового запису](Screenshots/Головна%20JSON%20додавання%20нового%20запису.png)
-Вибір файлу:
-![Вибір файлу](Screenshots/Головна%20JSON%20вибір%20якого%20файлу.png)
-Видалення файлу:
-![Видалення файлу](Screenshots/Видалення%20файлу.png)
+#### Create file  
+![Create](Screenshots/Головна%20JSON%20створення%20нового%20файлу.png)
+
+#### Edit file
+![Edit](Screenshots/Головна%20JSON%20редагуання%20самого%20файлу.png)
+
+#### Add record 
+![Add](Screenshots/Головна%20JSON%20додавання%20нового%20запису.png)
+
+#### Select file
+![Select](Screenshots/Головна%20JSON%20вибір%20якого%20файлу.png)
+
+#### Delete file
+![Delete](Screenshots/Видалення%20файлу.png)
 
 ### MySQL
 
-Перегляд записів:
-![Перегляд записів](Screenshots/Головна%20MySQL%20перегляд.png)
-Додавання запису:
-![Додавання запису](Screenshots/Головна%20MySQL%20додавання%20запису.png)
-Редагування запису:
-![Редагування запису](Screenshots/Головна%20MySQL%20редагування%20запису.png)
-Створення таблиці:
-![Створення таблиці](Screenshots/Головна%20MySQL%20сворення%20аблиці.png)
+#### View records 
+![View](Screenshots/Головна%20MySQL%20перегляд.png)
+
+#### Add record
+![Add](Screenshots/Головна%20MySQL%20додавання%20запису.png)
+
+#### Edit record
+![Edit](Screenshots/Головна%20MySQL%20редагування%20запису.png)
+
+#### Create table
+![Create](Screenshots/Головна%20MySQL%20сворення%20аблиці.png)
 
 ### SQLite
 
-Вибір бази даних:
-![Вибір бази даних](Screenshots/Головна%20SQLite%20бази%20даних.png)
-Перегляд запису:
-![Перегляд запису](Screenshots/Головна%20SQLite%20перегляд%20запису.png)
-Додавання запису до бази даних:
-![Додавання запису до бази даних](Screenshots/Головна%20SQLite%20запису%20до%20БД.png)
-Вибір файлу для редагування:
-![Вибір файлу для редагування](Screenshots/Головна%20SQLite%20вибір%20файлу%20для%20редагування.png)
+#### Select database
+![Select](Screenshots/Головна%20SQLite%20бази%20даних.png)
 
-### Документація
+#### View records
+![View](Screenshots/Головна%20SQLite%20перегляд%20запису.png)
 
-Частина 1
+#### Add record
+![Add](Screenshots/Головна%20SQLite%20запису%20до%20БД.png)
 
-![Документація 1](Screenshots/докуменація%201.png)
-Частина 2
+#### Select file
+![Select](Screenshots/Головна%20SQLite%20вибір%20файлу%20для%20редагування.png)
 
-![Документація 2](Screenshots/документація%202.png)
-Частина 3
+### Documentation
 
-![Документація 3](Screenshots/документація%203.png)
-Частина 4
-
-![Документація 4](Screenshots/документація%204.png)
-Частина 5
-
-![Документація 5](Screenshots/документація%205.png)
-Частина 6
-
-![Документація 6](Screenshots/документація%206.png)
+![Documentation 1](Screenshots/докуменація%201.png)
+![Documentation 2](Screenshots/документація%202.png)
+![Documentation 3](Screenshots/документація%203.png)
+![Documentation 4](Screenshots/документація%204.png)
+![Documentation 5](Screenshots/документація%205.png)
+![Documentation 6](Screenshots/документація%206.png)
